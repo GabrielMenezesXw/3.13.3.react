@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.template {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.site {
+  width: 100%;
+  max-width: 230px;
+}
+
+.youtube {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+@media screen and (min-width: 400px) {
+  .youtube {
+    width: 300px;
+  }
+}
+
+.container {
+  max-width: 200px;
+  width: 100%;
+  gap: 5px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.dados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+
+.video {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+.bolinha {
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  border-radius: 50%;
+}
