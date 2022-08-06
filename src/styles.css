@@ -5,25 +5,8 @@
 
 .template {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
-}
-.site {
-  width: 100%;
-  max-width: 200px;
-}
-
-.youtube {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: #fff;
-}
-
-@media screen and (min-width: 550px) {
-  .youtube {
-    width: 250px;
-  }
 }
 
 .container {
@@ -32,6 +15,12 @@
   gap: 5px;
   padding: 10px;
   justify-content: center;
+}
+
+@media screen and (min-width: 550px) {
+  .container {
+    max-width: 230px;
+  }
 }
 
 .dados {
