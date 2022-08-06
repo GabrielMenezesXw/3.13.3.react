@@ -19,12 +19,10 @@
   justify-content: center;
   background-color: #fff;
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (min-width: 550px) {
   .youtube {
     width: 250px;
-  }
-  .site {
-    max-width: 440px;
   }
 }
 
